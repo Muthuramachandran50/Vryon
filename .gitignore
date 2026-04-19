@@ -1,0 +1,55 @@
+# =============================================
+# ENV FILES - NEVER commit secrets to Git!
+# =============================================
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+!.env.example
+
+# =============================================
+# Python / Backend
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.eggs/
+
+# =============================================
+# User Uploads & Generated Results (private data)
+# =============================================
+backend/uploads/*
+backend/results/*
+# Keep the folders but not the contents
+!backend/uploads/.gitkeep
+!backend/results/.gitkeep
+
+# =============================================
+# Node / Frontend (already handled in frontend/.gitignore)
+# =============================================
+node_modules/
+.next/
+out/
+
+# =============================================
+# OS / Editor
+# =============================================
+.DS_Store
+Thumbs.db
+*.pem
+.idea/
+.vscode/
+*.log

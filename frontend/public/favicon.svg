@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Tuxedo jacket left lapel -->
+  <path d="M50 15 L20 30 L25 85 L50 75 L75 85 L80 30 Z" fill="#111"/>
+  <!-- White shirt front -->
+  <path d="M50 22 L38 35 L40 80 L50 75 L60 80 L62 35 Z" fill="#ffffff"/>
+  <!-- Left lapel inner -->
+  <path d="M50 22 L38 35 L35 30 L50 15 Z" fill="#111"/>
+  <!-- Right lapel inner -->
+  <path d="M50 22 L62 35 L65 30 L50 15 Z" fill="#111"/>
+  <!-- Bow tie left -->
+  <path d="M50 27 L42 23 L44 28 L42 33 L50 29 Z" fill="#111"/>
+  <!-- Bow tie right -->
+  <path d="M50 27 L58 23 L56 28 L58 33 L50 29 Z" fill="#111"/>
+  <!-- Bow tie knot -->
+  <rect x="48" y="26" width="4" height="4" rx="1" fill="#111"/>
+  <!-- Shirt buttons -->
+  <circle cx="50" cy="40" r="1.5" fill="#111"/>
+  <circle cx="50" cy="50" r="1.5" fill="#111"/>
+  <circle cx="50" cy="60" r="1.5" fill="#111"/>
+</svg>
